@@ -1,5 +1,5 @@
-n = int(input())
-str = input()
+n,str = input().split()
+n = int(n)
 l = [str[i:i+n] for i in range(0,len(str),n)]
 s = [x[::-1] for x in l]
 str = ""
