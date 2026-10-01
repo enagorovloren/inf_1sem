@@ -2,29 +2,28 @@ import numpy as np
 
 n,m = map(int,input().split())
 
-ur = 0
-dr = n-1
-lc = 0
-rc = m-1
-
+u = 0
+d = n-1
+l = 0
+r = m-1
+N = 0
 a = np.zeros((n,m))
 
-val = 0
-while(rc != lc and ur != dr):
-    for i in range(lc,rc+1):
-        a[ur,i] = val
-        val+=1
-    ur -=1
-    for i in range(ur,dr+1):
-        a[i,rc] = val
-        val+=1
-    rc -= 1
-    for i in range(rc,lc-1,-1):
-            a[dr,i] = val
-            val+=1
-    dr +=1
-    for i in range(dr,ur-1,-1):
-            a[i,lc] = val
-            val+=1
-    lc +=1
+while u <= d and l <= r:
+    a[u,l:r+1] = np.arange(N,N + r-l + 1) + 1
+    N += r-l+1
+    u += 1
+
+    a[u:d + 1,r] = np.arange(N,N + d - u + 1) + 1
+    N += d-u+1
+    r -= 1
+
+    a[d,l:r+1] = np.arange(N+r-l,N-1,-1) + 1
+    N += r - l + 1
+    d -= 1
+
+    a[u:d+1,l] = np.arange(N + d - u,N-1,-1)+1
+    N += d - u + 1
+    l += 1
 print(a)
+

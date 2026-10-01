@@ -6,7 +6,7 @@
 #         return cache[n]
 
 #--------------------------
-
+a = int(input())
 def fib(N):
     if N <=1:
         return N
@@ -15,4 +15,4 @@ def fib(N):
     for i in range(N-1):
         a,b = a+b,a
     return a
-print(fib(10))
+print(fib(a))
