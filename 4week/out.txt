@@ -1,0 +1,605 @@
+a  history of the software
+                          
+
+python was created in the early 1990s by guido van rossum at stichting
+mathematisch centrum  cwi  see http   www cwi nl  in the netherlands
+as a successor of a language called abc   guido remains python s
+principal author  although it includes many contributions from others 
+
+in 1995  guido continued his work on python at the corporation for
+national research initiatives  cnri  see http   www cnri reston va us 
+in reston  virginia where he released several versions of the
+software 
+
+in may 2000  guido and the python core development team moved to
+beopen com to form the beopen pythonlabs team   in october of the same
+year  the pythonlabs team moved to digital creations  now zope
+corporation  see http   www zope com    in 2001  the python software
+foundation  psf  see http   www python org psf   was formed  a
+non profit organization created specifically to own python related
+intellectual property   zope corporation is a sponsoring member of
+the psf 
+
+all python releases are open source  see http   www opensource org for
+the open source definition    historically  most  but not all  python
+releases have also been gpl compatible  the table below summarizes
+the various releases 
+
+    release         derived     year        owner       gpl 
+                    from                                compatible   1 
+
+    0 9 0 thru 1 2              1991 1995   cwi         yes
+    1 3 thru 1 5 2  1 2         1995 1999   cnri        yes
+    1 6             1 5 2       2000        cnri        no
+    2 0             1 6         2000        beopen com  no
+    1 6 1           1 6         2001        cnri        yes  2 
+    2 1             2 0 1 6 1   2001        psf         no
+    2 0 1           2 0 1 6 1   2001        psf         yes
+    2 1 1           2 1 2 0 1   2001        psf         yes
+    2 1 2           2 1 1       2002        psf         yes
+    2 1 3           2 1 2       2002        psf         yes
+    2 2 and above   2 1 1       2001 now    psf         yes
+
+footnotes 
+
+ 1  gpl compatible doesn t mean that we re distributing python under
+    the gpl   all python licenses  unlike the gpl  let you distribute
+    a modified version without making your changes open source   the
+    gpl compatible licenses make it possible to combine python with
+    other software that is released under the gpl  the others don t 
+
+ 2  according to richard stallman  1 6 1 is not gpl compatible 
+    because its license has a choice of law clause   according to
+    cnri  however  stallman s lawyer has told cnri s lawyer that 1 6 1
+    is  not incompatible  with the gpl 
+
+thanks to the many outside volunteers who have worked under guido s
+direction to make these releases possible 
+
+
+b  terms and conditions for accessing or otherwise using python
+                                                               
+
+python software foundation license version 2
+                                            
+
+1  this license agreement is between the python software foundation
+  psf    and the individual or organization   licensee   accessing and
+otherwise using this software   python   in source or binary form and
+its associated documentation 
+
+2  subject to the terms and conditions of this license agreement  psf hereby
+grants licensee a nonexclusive  royalty free  world wide license to reproduce 
+analyze  test  perform and or display publicly  prepare derivative works 
+distribute  and otherwise use python alone or in any derivative version 
+provided  however  that psf s license agreement and psf s notice of copyright 
+i e    copyright  c  2001  2002  2003  2004  2005  2006  2007  2008  2009  2010 
+2011  2012  2013  2014  2015 python software foundation  all rights reserved 
+are retained in python alone or in any derivative version prepared by licensee 
+
+3  in the event licensee prepares a derivative work that is based on
+or incorporates python or any part thereof  and wants to make
+the derivative work available to others as provided herein  then
+licensee hereby agrees to include in any such work a brief summary of
+the changes made to python 
+
+4  psf is making python available to licensee on an  as is 
+basis   psf makes no representations or warranties  express or
+implied   by way of example  but not limitation  psf makes no and
+disclaims any representation or warranty of merchantability or fitness
+for any particular purpose or that the use of python will not
+infringe any third party rights 
+
+5  psf shall not be liable to licensee or any other users of python
+for any incidental  special  or consequential damages or loss as
+a result of modifying  distributing  or otherwise using python 
+or any derivative thereof  even if advised of the possibility thereof 
+
+6  this license agreement will automatically terminate upon a material
+breach of its terms and conditions 
+
+7  nothing in this license agreement shall be deemed to create any
+relationship of agency  partnership  or joint venture between psf and
+licensee   this license agreement does not grant permission to use psf
+trademarks or trade name in a trademark sense to endorse or promote
+products or services of licensee  or any third party 
+
+8  by copying  installing or otherwise using python  licensee
+agrees to be bound by the terms and conditions of this license
+agreement 
+
+
+beopen com license agreement for python 2 0
+                                           
+
+beopen python open source license agreement version 1
+
+1  this license agreement is between beopen com   beopen    having an
+office at 160 saratoga avenue  santa clara  ca 95051  and the
+individual or organization   licensee   accessing and otherwise using
+this software in source or binary form and its associated
+documentation   the software   
+
+2  subject to the terms and conditions of this beopen python license
+agreement  beopen hereby grants licensee a non exclusive 
+royalty free  world wide license to reproduce  analyze  test  perform
+and or display publicly  prepare derivative works  distribute  and
+otherwise use the software alone or in any derivative version 
+provided  however  that the beopen python license is retained in the
+software  alone or in any derivative version prepared by licensee 
+
+3  beopen is making the software available to licensee on an  as is 
+basis   beopen makes no representations or warranties  express or
+implied   by way of example  but not limitation  beopen makes no and
+disclaims any representation or warranty of merchantability or fitness
+for any particular purpose or that the use of the software will not
+infringe any third party rights 
+
+4  beopen shall not be liable to licensee or any other users of the
+software for any incidental  special  or consequential damages or loss
+as a result of using  modifying or distributing the software  or any
+derivative thereof  even if advised of the possibility thereof 
+
+5  this license agreement will automatically terminate upon a material
+breach of its terms and conditions 
+
+6  this license agreement shall be governed by and interpreted in all
+respects by the law of the state of california  excluding conflict of
+law provisions   nothing in this license agreement shall be deemed to
+create any relationship of agency  partnership  or joint venture
+between beopen and licensee   this license agreement does not grant
+permission to use beopen trademarks or trade names in a trademark
+sense to endorse or promote products or services of licensee  or any
+third party   as an exception  the  beopen python  logos available at
+http   www pythonlabs com logos html may be used according to the
+permissions granted on that web page 
+
+7  by copying  installing or otherwise using the software  licensee
+agrees to be bound by the terms and conditions of this license
+agreement 
+
+
+cnri license agreement for python 1 6 1
+                                       
+
+1  this license agreement is between the corporation for national
+research initiatives  having an office at 1895 preston white drive 
+reston  va 20191   cnri    and the individual or organization
+  licensee   accessing and otherwise using python 1 6 1 software in
+source or binary form and its associated documentation 
+
+2  subject to the terms and conditions of this license agreement  cnri
+hereby grants licensee a nonexclusive  royalty free  world wide
+license to reproduce  analyze  test  perform and or display publicly 
+prepare derivative works  distribute  and otherwise use python 1 6 1
+alone or in any derivative version  provided  however  that cnri s
+license agreement and cnri s notice of copyright  i e    copyright  c 
+1995 2001 corporation for national research initiatives  all rights
+reserved  are retained in python 1 6 1 alone or in any derivative
+version prepared by licensee   alternately  in lieu of cnri s license
+agreement  licensee may substitute the following text  omitting the
+quotes    python 1 6 1 is made available subject to the terms and
+conditions in cnri s license agreement   this agreement together with
+python 1 6 1 may be located on the internet using the following
+unique  persistent identifier  known as a handle   1895 22 1013   this
+agreement may also be obtained from a proxy server on the internet
+using the following url  http   hdl handle net 1895 22 1013  
+
+3  in the event licensee prepares a derivative work that is based on
+or incorporates python 1 6 1 or any part thereof  and wants to make
+the derivative work available to others as provided herein  then
+licensee hereby agrees to include in any such work a brief summary of
+the changes made to python 1 6 1 
+
+4  cnri is making python 1 6 1 available to licensee on an  as is 
+basis   cnri makes no representations or warranties  express or
+implied   by way of example  but not limitation  cnri makes no and
+disclaims any representation or warranty of merchantability or fitness
+for any particular purpose or that the use of python 1 6 1 will not
+infringe any third party rights 
+
+5  cnri shall not be liable to licensee or any other users of python
+1 6 1 for any incidental  special  or consequential damages or loss as
+a result of modifying  distributing  or otherwise using python 1 6 1 
+or any derivative thereof  even if advised of the possibility thereof 
+
+6  this license agreement will automatically terminate upon a material
+breach of its terms and conditions 
+
+7  this license agreement shall be governed by the federal
+intellectual property law of the united states  including without
+limitation the federal copyright law  and  to the extent such
+u s  federal law does not apply  by the law of the commonwealth of
+virginia  excluding virginia s conflict of law provisions 
+notwithstanding the foregoing  with regard to derivative works based
+on python 1 6 1 that incorporate non separable material that was
+previously distributed under the gnu general public license  gpl   the
+law of the commonwealth of virginia shall govern this license
+agreement only as to issues arising under or with respect to
+paragraphs 4  5  and 7 of this license agreement   nothing in this
+license agreement shall be deemed to create any relationship of
+agency  partnership  or joint venture between cnri and licensee   this
+license agreement does not grant permission to use cnri trademarks or
+trade name in a trademark sense to endorse or promote products or
+services of licensee  or any third party 
+
+8  by clicking on the  accept  button where indicated  or by copying 
+installing or otherwise using python 1 6 1  licensee agrees to be
+bound by the terms and conditions of this license agreement 
+
+        accept
+
+
+cwi license agreement for python 0 9 0 through 1 2
+                                                  
+
+copyright  c  1991   1995  stichting mathematisch centrum amsterdam 
+the netherlands   all rights reserved 
+
+permission to use  copy  modify  and distribute this software and its
+documentation for any purpose and without fee is hereby granted 
+provided that the above copyright notice appear in all copies and that
+both that copyright notice and this permission notice appear in
+supporting documentation  and that the name of stichting mathematisch
+centrum or cwi not be used in advertising or publicity pertaining to
+distribution of the software without specific  written prior
+permission 
+
+stichting mathematisch centrum disclaims all warranties with regard to
+this software  including all implied warranties of merchantability and
+fitness  in no event shall stichting mathematisch centrum be liable
+for any special  indirect or consequential damages or any damages
+whatsoever resulting from loss of use  data or profits  whether in an
+action of contract  negligence or other tortious action  arising out
+of or in connection with the use or performance of this software 
+
+
+
+additional conditions for this windows binary build
+                                                   
+
+this program is linked with and uses microsoft distributable code 
+copyrighted by microsoft corporation  the microsoft distributable code
+is embedded in each  exe   dll and  pyd file as a result of running
+the code through a linker 
+
+if you further distribute programs that include the microsoft
+distributable code  you must comply with the restrictions on
+distribution specified by microsoft  in particular  you must require
+distributors and external end users to agree to terms that protect the
+microsoft distributable code at least as much as microsoft s own
+requirements for the distributable code  see microsoft s documentation
+ included in its developer tools and on its website at microsoft com 
+for specific details 
+
+redistribution of the windows binary build of the python interpreter
+complies with this agreement  provided that you do not 
+
+  alter any copyright  trademark or patent notice in microsoft s
+distributable code 
+
+  use microsoft s trademarks in your programs  names or in a way that
+suggests your programs come from or are endorsed by microsoft 
+
+  distribute microsoft s distributable code to run on a platform other
+than microsoft operating systems  run time technologies or application
+platforms  or
+
+  include microsoft distributable code in malicious  deceptive or
+unlawful programs 
+
+these restrictions apply only to the microsoft distributable code as
+defined above  not to python itself or any programs running on the
+python interpreter  the redistribution of the python interpreter and
+libraries is governed by the python software license included with this
+file  or by other licenses as marked 
+
+
+
+                                                                          
+
+this program   bzip2   the associated library  libbzip2   and all
+documentation  are copyright  c  1996 2010 julian r seward   all
+rights reserved 
+
+redistribution and use in source and binary forms  with or without
+modification  are permitted provided that the following conditions
+are met 
+
+1  redistributions of source code must retain the above copyright
+   notice  this list of conditions and the following disclaimer 
+
+2  the origin of this software must not be misrepresented  you must 
+   not claim that you wrote the original software   if you use this 
+   software in a product  an acknowledgment in the product 
+   documentation would be appreciated but is not required 
+
+3  altered source versions must be plainly marked as such  and must
+   not be misrepresented as being the original software 
+
+4  the name of the author may not be used to endorse or promote 
+   products derived from this software without specific prior written 
+   permission 
+
+this software is provided by the author   as is   and any express
+or implied warranties  including  but not limited to  the implied
+warranties of merchantability and fitness for a particular purpose
+are disclaimed   in no event shall the author be liable for any
+direct  indirect  incidental  special  exemplary  or consequential
+damages  including  but not limited to  procurement of substitute
+goods or services  loss of use  data  or profits  or business
+interruption  however caused and on any theory of liability 
+whether in contract  strict liability  or tort  including
+negligence or otherwise  arising in any way out of the use of this
+software  even if advised of the possibility of such damage 
+
+julian seward  jseward bzip org
+bzip2 libbzip2 version 1 0 6 of 6 september 2010
+
+                                                                          
+
+
+  license issues
+                
+
+  the openssl toolkit stays under a dual license  i e  both the conditions of
+  the openssl license and the original ssleay license apply to the toolkit 
+  see below for the actual license texts  actually both licenses are bsd style
+  open source licenses  in case of any license issues related to openssl
+  please contact openssl core openssl org 
+
+  openssl license
+                 
+
+                                                                       
+   copyright  c  1998 2011 the openssl project   all rights reserved 
+  
+   redistribution and use in source and binary forms  with or without
+   modification  are permitted provided that the following conditions
+   are met 
+  
+   1  redistributions of source code must retain the above copyright
+      notice  this list of conditions and the following disclaimer  
+  
+   2  redistributions in binary form must reproduce the above copyright
+      notice  this list of conditions and the following disclaimer in
+      the documentation and or other materials provided with the
+      distribution 
+  
+   3  all advertising materials mentioning features or use of this
+      software must display the following acknowledgment 
+       this product includes software developed by the openssl project
+      for use in the openssl toolkit   http   www openssl org   
+  
+   4  the names  openssl toolkit  and  openssl project  must not be used to
+      endorse or promote products derived from this software without
+      prior written permission  for written permission  please contact
+      openssl core openssl org 
+  
+   5  products derived from this software may not be called  openssl 
+      nor may  openssl  appear in their names without prior written
+      permission of the openssl project 
+  
+   6  redistributions of any form whatsoever must retain the following
+      acknowledgment 
+       this product includes software developed by the openssl project
+      for use in the openssl toolkit  http   www openssl org   
+  
+   this software is provided by the openssl project   as is   and any
+   expressed or implied warranties  including  but not limited to  the
+   implied warranties of merchantability and fitness for a particular
+   purpose are disclaimed   in no event shall the openssl project or
+   its contributors be liable for any direct  indirect  incidental 
+   special  exemplary  or consequential damages  including  but
+   not limited to  procurement of substitute goods or services 
+   loss of use  data  or profits  or business interruption 
+   however caused and on any theory of liability  whether in contract 
+   strict liability  or tort  including negligence or otherwise 
+   arising in any way out of the use of this software  even if advised
+   of the possibility of such damage 
+                                                                       
+  
+   this product includes cryptographic software written by eric young
+    eay cryptsoft com    this product includes software written by tim
+   hudson  tjh cryptsoft com  
+  
+   
+
+ original ssleay license
+                        
+
+   copyright  c  1995 1998 eric young  eay cryptsoft com 
+   all rights reserved 
+  
+   this package is an ssl implementation written
+   by eric young  eay cryptsoft com  
+   the implementation was written so as to conform with netscapes ssl 
+   
+   this library is free for commercial and non commercial use as long as
+   the following conditions are aheared to   the following conditions
+   apply to all code found in this distribution  be it the rc4  rsa 
+   lhash  des  etc   code  not just the ssl code   the ssl documentation
+   included with this distribution is covered by the same copyright terms
+   except that the holder is tim hudson  tjh cryptsoft com  
+   
+   copyright remains eric young s  and as such any copyright notices in
+   the code are not to be removed 
+   if this package is used in a product  eric young should be given attribution
+   as the author of the parts of the library used 
+   this can be in the form of a textual message at program startup or
+   in documentation  online or textual  provided with the package 
+   
+   redistribution and use in source and binary forms  with or without
+   modification  are permitted provided that the following conditions
+   are met 
+   1  redistributions of source code must retain the copyright
+      notice  this list of conditions and the following disclaimer 
+   2  redistributions in binary form must reproduce the above copyright
+      notice  this list of conditions and the following disclaimer in the
+      documentation and or other materials provided with the distribution 
+   3  all advertising materials mentioning features or use of this software
+      must display the following acknowledgement 
+       this product includes cryptographic software written by
+       eric young  eay cryptsoft com  
+      the word  cryptographic  can be left out if the rouines from the library
+      being used are not cryptographic related     
+   4  if you include any windows specific code  or a derivative thereof  from 
+      the apps directory  application code  you must include an acknowledgement 
+       this product includes software written by tim hudson  tjh cryptsoft com  
+   
+   this software is provided by eric young   as is   and
+   any express or implied warranties  including  but not limited to  the
+   implied warranties of merchantability and fitness for a particular purpose
+   are disclaimed   in no event shall the author or contributors be liable
+   for any direct  indirect  incidental  special  exemplary  or consequential
+   damages  including  but not limited to  procurement of substitute goods
+   or services  loss of use  data  or profits  or business interruption 
+   however caused and on any theory of liability  whether in contract  strict
+   liability  or tort  including negligence or otherwise  arising in any way
+   out of the use of this software  even if advised of the possibility of
+   such damage 
+   
+   the licence and distribution terms for any publically available version or
+   derivative of this code cannot be changed   i e  this code cannot simply be
+   copied and put under another distribution licence
+    including the gnu public licence  
+   
+
+
+this software is copyrighted by the regents of the university of
+california  sun microsystems  inc   scriptics corporation  activestate
+corporation and other parties   the following terms apply to all files
+associated with the software unless explicitly disclaimed in
+individual files 
+
+the authors hereby grant permission to use  copy  modify  distribute 
+and license this software and its documentation for any purpose  provided
+that existing copyright notices are retained in all copies and that this
+notice is included verbatim in any distributions  no written agreement 
+license  or royalty fee is required for any of the authorized uses 
+modifications to this software may be copyrighted by their authors
+and need not follow the licensing terms described here  provided that
+the new terms are clearly indicated on the first page of each file where
+they apply 
+
+in no event shall the authors or distributors be liable to any party
+for direct  indirect  special  incidental  or consequential damages
+arising out of the use of this software  its documentation  or any
+derivatives thereof  even if the authors have been advised of the
+possibility of such damage 
+
+the authors and distributors specifically disclaim any warranties 
+including  but not limited to  the implied warranties of merchantability 
+fitness for a particular purpose  and non infringement   this software
+is provided on an  as is  basis  and the authors and distributors have
+no obligation to provide maintenance  support  updates  enhancements  or
+modifications 
+
+government use  if you are acquiring this software on behalf of the
+u s  government  the government shall have only  restricted rights 
+in the software and related documentation as defined in the federal
+acquisition regulations  fars  in clause 52 227 19  c   2    if you
+are acquiring the software on behalf of the department of defense  the
+software shall be classified as  commercial computer software  and the
+government shall have only  restricted rights  as defined in clause
+252 227 7014  b   3  of dfars   notwithstanding the foregoing  the
+authors grant the u s  government and others acting in its behalf
+permission to use and distribute the software in accordance with the
+terms specified in this license 
+
+this software is copyrighted by the regents of the university of
+california  sun microsystems  inc   scriptics corporation  activestate
+corporation  apple inc  and other parties   the following terms apply to
+all files associated with the software unless explicitly disclaimed in
+individual files 
+
+the authors hereby grant permission to use  copy  modify  distribute 
+and license this software and its documentation for any purpose  provided
+that existing copyright notices are retained in all copies and that this
+notice is included verbatim in any distributions  no written agreement 
+license  or royalty fee is required for any of the authorized uses 
+modifications to this software may be copyrighted by their authors
+and need not follow the licensing terms described here  provided that
+the new terms are clearly indicated on the first page of each file where
+they apply 
+
+in no event shall the authors or distributors be liable to any party
+for direct  indirect  special  incidental  or consequential damages
+arising out of the use of this software  its documentation  or any
+derivatives thereof  even if the authors have been advised of the
+possibility of such damage 
+
+the authors and distributors specifically disclaim any warranties 
+including  but not limited to  the implied warranties of merchantability 
+fitness for a particular purpose  and non infringement   this software
+is provided on an  as is  basis  and the authors and distributors have
+no obligation to provide maintenance  support  updates  enhancements  or
+modifications 
+
+government use  if you are acquiring this software on behalf of the
+u s  government  the government shall have only  restricted rights 
+in the software and related documentation as defined in the federal
+acquisition regulations  fars  in clause 52 227 19  c   2    if you
+are acquiring the software on behalf of the department of defense  the
+software shall be classified as  commercial computer software  and the
+government shall have only  restricted rights  as defined in clause
+252 227 7013  b   3  of dfars   notwithstanding the foregoing  the
+authors grant the u s  government and others acting in its behalf
+permission to use and distribute the software in accordance with the
+terms specified in this license 
+
+copyright  c  1993 1999 ioi kim lam 
+copyright  c  2000 2001 tix project group 
+copyright  c  2004 activestate
+
+this software is copyrighted by the above entities
+and other parties   the following terms apply to all files associated
+with the software unless explicitly disclaimed in individual files 
+
+the authors hereby grant permission to use  copy  modify  distribute 
+and license this software and its documentation for any purpose  provided
+that existing copyright notices are retained in all copies and that this
+notice is included verbatim in any distributions  no written agreement 
+license  or royalty fee is required for any of the authorized uses 
+modifications to this software may be copyrighted by their authors
+and need not follow the licensing terms described here  provided that
+the new terms are clearly indicated on the first page of each file where
+they apply 
+
+in no event shall the authors or distributors be liable to any party
+for direct  indirect  special  incidental  or consequential damages
+arising out of the use of this software  its documentation  or any
+derivatives thereof  even if the authors have been advised of the
+possibility of such damage 
+
+the authors and distributors specifically disclaim any warranties 
+including  but not limited to  the implied warranties of merchantability 
+fitness for a particular purpose  and non infringement   this software
+is provided on an  as is  basis  and the authors and distributors have
+no obligation to provide maintenance  support  updates  enhancements  or
+modifications 
+
+government use  if you are acquiring this software on behalf of the
+u s  government  the government shall have only  restricted rights 
+in the software and related documentation as defined in the federal 
+acquisition regulations  fars  in clause 52 227 19  c   2    if you
+are acquiring the software on behalf of the department of defense  the
+software shall be classified as  commercial computer software  and the
+government shall have only  restricted rights  as defined in clause
+252 227 7013  c   1  of dfars   notwithstanding the foregoing  the
+authors grant the u s  government and others acting in its behalf
+permission to use and distribute the software in accordance with the
+terms specified in this license  
+
+                                                                      
+
+parts of this software are based on the tcl tk software copyrighted by
+the regents of the university of california  sun microsystems  inc  
+and other parties  the original license terms of the tcl tk software
+distribution is included in the file docs license tcltk 
+
+parts of this software are based on the html library software
+copyrighted by sun microsystems  inc  the original license terms of
+the html library software distribution is included in the file
+docs license html lib 
+
